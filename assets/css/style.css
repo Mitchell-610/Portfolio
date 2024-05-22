@@ -44,3 +44,8 @@ nav li {
     z-index: 1;
     bottom: 0;
 }
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
