@@ -1,3 +1,11 @@
 body{
     background-color: black;
 }
+header{
+    background-color: plum;
+    color: aqua;
+    display: flex;
+    height: 120px;
+    align-items: center;
+    justify-content: space-between;
+}
