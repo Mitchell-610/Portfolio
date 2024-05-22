@@ -19,3 +19,7 @@ nav ul {
     list-style-type: none;
     display: flex;
 }
+
+nav li {
+    margin: 20px;
+}
