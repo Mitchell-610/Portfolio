@@ -14,3 +14,8 @@ h1{
     font-size: 300%;
     margin-left: 10px;
 }
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
