@@ -49,3 +49,11 @@ nav li {
     display: flex;
     flex-direction: column;
 }
+
+h2{
+    font-size: 250%;
+    margin: 15px;
+    color: white;
+    border-right: thick solid aqua;
+    padding-right: 5%;
+}
