@@ -9,3 +9,8 @@ header{
     align-items: center;
     justify-content: space-between;
 }
+
+h1{
+    font-size: 300%;
+    margin-left: 10px;
+}
