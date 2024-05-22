@@ -33,3 +33,14 @@ nav li {
     background-size: cover;
     background-position: center;
 }
+
+.pic p {
+    font-size: 250%;
+    background-color: purple;
+    color: aqua;
+    margin: 0%;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    bottom: 0;
+}
