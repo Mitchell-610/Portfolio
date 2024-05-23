@@ -80,6 +80,10 @@ h2{
     color: white;
 }
 
+.About-Me h2{
+    padding-right: 4.2%;
+}
+
 .About-Me p{
     margin-left: 5%;
 }
@@ -126,7 +130,7 @@ h2{
 }
 
 .Contact-Me h2{
-    padding-right: 2%;
+    padding-right: 1.8%;
 }
 
 .Contact-Me a{
