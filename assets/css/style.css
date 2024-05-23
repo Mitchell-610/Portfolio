@@ -62,7 +62,7 @@ h2{
     margin-left: 5%;
 }
 
-.About-Me,.Work{
+.About-Me,.Work,.Contact-Me{
     display: flex;
     padding-top: 10%;
 }
