@@ -96,3 +96,7 @@ h2{
 .Contact-Me{
     align-items: center;
 }
+
+.Contact-Me a{
+    margin: 5%;
+}
