@@ -1,9 +1,15 @@
+:root{
+    --lp: plum;
+    --a: aqua;
+    --pv: palevioletred;
+}
+
 body{
     background-color: black;
 }
 header{
-    background-color: plum;
-    color: aqua;
+    background-color: var(--lp);
+    color: var(--a);
     display: flex;
     height: 120px;
     align-items: center;
@@ -36,7 +42,7 @@ nav li {
 
 .pic p {
     font-size: 250%;
-    background-color: plum;
+    background-color: var(--lp);
     color: aqua;
     margin: 0%;
     position: absolute;
@@ -54,7 +60,7 @@ h2{
     font-size: 250%;
     margin: 15px;
     color: white;
-    border-right: thick solid aqua;
+    border-right: thick solid var(--a);
     padding-right: 5%;
 }
 
@@ -84,13 +90,13 @@ h2{
 }
 
 .refactor img:hover{
-    border: dotted palevioletred;
+    border: dotted var(--pv);
 }
 
 .refactor img{
     width: 50%;
     display: flex;
-    border: dotted aqua;
+    border: dotted var(--a);
 }
 
 .coming-soon{
@@ -102,11 +108,11 @@ h2{
 .coming-soon img{
     width: 15%;
     margin: 10px;
-    border: dotted aqua;
+    border: dotted var(--a);
 }
 
 .coming-soon img:hover{
-    border: dotted palevioletred;
+    border: dotted var(--pv);
 }
 
 .Contact-Me{
