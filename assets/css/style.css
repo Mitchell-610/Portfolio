@@ -99,10 +99,16 @@ h2{
     border: dotted var(--a);
 }
 
+.all{
+    display: flex;
+    flex-direction: column;
+}
+
 .coming-soon{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-self: flex-end;
 }
 
 .coming-soon img{
