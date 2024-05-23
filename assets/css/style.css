@@ -34,7 +34,7 @@ nav li {
     position: relative;
     height: 200px;
     overflow: hidden;
-    background-image: url(../Pics/galaxy.JPG);
+    background-image: url(../pics/galaxy.JPG);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
