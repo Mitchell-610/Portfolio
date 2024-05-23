@@ -67,7 +67,7 @@ h2{
     padding-top: 10%;
 }
 
-.About-Me p{
+.About-Me p,.Contact-Me a{
     margin-left: 5%;
     font-size: 150%;
     font-family: 'Times New Roman', Times, serif;
