@@ -92,8 +92,11 @@ h2{
 .coming-soon img{
     width: 15%;
     margin: 10px;
-    transition: all 0.5s purple ease-in-out;
     border: dotted aqua;
+}
+
+.coming-soon img:hover{
+    border: dotted palevioletred;
 }
 
 .Contact-Me{
