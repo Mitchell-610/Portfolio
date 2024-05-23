@@ -129,3 +129,9 @@ h2{
     margin: 5%;
 }
 
+@media screen and (max-width: 1120px) {
+    footer a {
+        display: flex;
+        flex-direction: column;
+    }
+}
