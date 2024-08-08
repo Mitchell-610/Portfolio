@@ -7,6 +7,7 @@
 body{
     background-color: black;
 }
+
 header{
     background-color: var(--lp);
     color: var(--a);
@@ -88,40 +89,23 @@ h2{
     margin-left: 5%;
 }
 
-.refactor a{
-    display: flex;
-    justify-content: center;
-}
-
-.refactor img:hover{
-    border: dotted var(--pv);
-}
-
-.refactor img{
-    width: 50%;
-    display: flex;
-    border: dotted var(--a);
-}
-
 .all{
-    display: flex;
-    flex-direction: column;
-}
-
-.coming-soon{
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-wrap:wrap;*/
+     display: grid;
+    grid-template-columns: auto auto;  
+    align-items: center;
     justify-content: center;
-    align-self: flex-end;
 }
 
-.coming-soon img{
-    width: 15%;
+.all img{
     margin: 10px;
     border: dotted var(--a);
+    width: 70%;
+    display: flex;
 }
 
-.coming-soon img:hover{
+.all img:hover{
     border: dotted var(--pv);
 }
 
